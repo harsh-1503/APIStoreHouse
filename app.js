@@ -24,7 +24,7 @@ app.use(express.json())
 app.use('/api/v1',userRoute)
 app.use('/api/v1',productRoute)
 app.use('/api/v1',cartRoute)
-app.use('api/v1',orderRoutes)
+app.use('/api/v1',orderRoutes)
 
 app.get('/',(req,res)=>{
     // req.h
